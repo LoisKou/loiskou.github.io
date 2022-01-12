@@ -1,0 +1,112 @@
+
+body
+{
+  display: flex;
+  flex-flow: wrap-reverse column;
+  align-content: ;
+  font-family: sans-serif;
+  justify-content: flex-start;
+  align-items: ;
+  background-color: black;
+  color : white;
+}
+
+header
+{
+  display: flex;
+  flex-flow: wrap-reverse row;
+  align-items: stretch;
+  justify-content: flex-end;
+  align-content: space-between;
+
+}
+
+.middle
+{
+  min-height: 400px;
+  height: 100%;
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bouton
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+em
+{
+  border: 1px solid white;
+}
+footer
+{
+  min-height: 50px;
+  display: flex;
+  flex-flow: wrap row;
+  align-content: space-between;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.country
+{
+  display: flex;
+  flex-flow: nowrap row;
+  align-self: flex-end;
+  justify-content: flex-start;
+}
+
+.carbon
+{
+  display: flex;
+  flex-flow: wrap row-reverse;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.link
+{
+  display: flex;
+  flex-flow: wrap row-reverse;
+  align-content: space-between;
+  align-items: flex-end;
+  justify-content: flex-start;
+  color:  white;
+}
+
+a:link
+{
+  color: white;
+  text-decoration: none;
+}
+a:visited
+{
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color : hotpink;
+  text-decoration: none;
+}
+
+a:active
+{
+  color: blue;
+  text-decoration: none;
+}
+
+strong
+{
+  background-color: blue;
+}
+
+.border-flex
+{
+  border: 2px solid red;
+}
